@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.5
+Java-Version: 17
+Build-Jdk-Spec: 21
+Specification-Title: GitLab Plugin
+Specification-Version: 1.9
+Implementation-Title: GitLab Plugin
+Implementation-Version: 1.9.12
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: gitlab-plugin
+Short-Name: gitlab-plugin
+Long-Name: GitLab Plugin
+Url: https://github.com/jenkinsci/gitlab-plugin
+Compatible-Since-Version: 1.4.0
+Plugin-Version: 1.9.12
+Hudson-Version: 2.504.3
+Jenkins-Version: 2.504.3
+Plugin-Dependencies: caffeine-api:3.2.3-194.v31a_b_f7a_b_5a_81,commons-l
+ ang3-api:3.20.0-109.ve43756e2d2b_4,jakarta-xml-bind-api:4.0.6-10.v9b_7e
+ 1d1fc40b_,javax-activation-api:1.2.0-8,jersey3-api:3.1.11-4.v77818819c2
+ e1,joda-time-api:2.14.0-149.v1c3ce991d1b_9,workflow-job:1559.va_a_53373
+ 0b_ea_d,workflow-step-api:710.v3e456cc85233,apache-httpcomponents-clien
+ t-4-api:4.5.14-269.vfa_2321039a_83,credentials:1453.v9b_a_29777a_b_fd,d
+ isplay-url-api:2.217.va_6b_de84cc74b_,git-client:6.4.3,git:5.8.1,jackso
+ n2-api:2.20.1-423.v13951f6b_6532,matrix-project:870.v9db_fcfc2f45b_,pla
+ in-credentials:199.v9f8e1f741799;resolution:=optional,scm-api:724.v7d83
+ 9074eb_5c,ssh-credentials:361.vb_f6760818e8c;resolution:=optional
+Plugin-Developers: 
+Plugin-License-Name: GPL v2.0 License
+Plugin-License-Url: http://www.gnu.org/licenses/old-licenses/gpl-2.0-sta
+ ndalone.html
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/gitlab-plugin
+Plugin-ScmTag: gitlab-plugin-1.9.12
+Plugin-ScmUrl: https://github.com/jenkinsci/gitlab-plugin
+Implementation-Build: c83d012eaa1797393f4f6a33f03128bdbe6cb111
+

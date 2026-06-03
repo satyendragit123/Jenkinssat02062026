@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.6
+Java-Version: 17
+Build-Jdk-Spec: 21
+Specification-Title: GitLab API Plugin
+Specification-Version: 6.3
+Implementation-Title: GitLab API Plugin
+Implementation-Version: 6.3.0-126.vd066b_d896159
+Group-Id: io.jenkins.plugins
+Artifact-Id: gitlab-api
+Short-Name: gitlab-api
+Long-Name: GitLab API Plugin
+Url: https://github.com/jenkinsci/gitlab-api-plugin
+Plugin-Version: 6.3.0-126.vd066b_d896159
+Hudson-Version: 2.504.3
+Jenkins-Version: 2.504.3
+Plugin-Dependencies: jakarta-activation-api:2.1.4-1,jersey3-api:3.1.11-4
+ .v77818819c2e1,jackson2-api:2.20.1-423.v13951f6b_6532
+Plugin-Developers: Parichay Barpanda:baymac:parichay.barpanda@gmail.com
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/gitlab-api-pl
+ ugin.git
+Plugin-ScmTag: d066bd896159e3631e8a7121dd576cddeea918de
+Plugin-ScmUrl: https://github.com/jenkinsci/gitlab-api-plugin
+Implementation-Build: d066bd896159e3631e8a7121dd576cddeea918de
+

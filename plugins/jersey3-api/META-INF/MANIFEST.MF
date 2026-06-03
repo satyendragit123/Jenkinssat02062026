@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.4
+Build-Jdk-Spec: 17
+Specification-Title: Jersey 3 API
+Specification-Version: 3.1
+Implementation-Title: Jersey 3 API
+Implementation-Version: 3.1.11-4.v77818819c2e1
+Group-Id: io.jenkins.plugins
+Artifact-Id: jersey3-api
+Short-Name: jersey3-api
+Long-Name: Jersey 3 API
+Url: https://github.com/jenkinsci/jersey3-api-plugin
+Plugin-Version: 3.1.11-4.v77818819c2e1
+Hudson-Version: 2.504.3
+Jenkins-Version: 2.504.3
+Plugin-Dependencies: jakarta-activation-api:2.1.3-2,jakarta-xml-bind-api
+ :4.0.5-3.v3d5b_a_73965b_9,apache-httpcomponents-client-4-api:4.5.14-269
+ .vfa_2321039a_83;resolution:=optional,jackson2-api:2.20.0-420.v8a_08b_d
+ 57ca_05;resolution:=optional
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Plugin-License-Name: EPL-2.0
+Plugin-License-Url: https://opensource.org/licenses/EPL-2.0
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/jersey3-api-p
+ lugin.git
+Plugin-ScmTag: 77818819c2e144e1d8d04f0eaa1c8e00baddd3cf
+Plugin-ScmUrl: https://github.com/jenkinsci/jersey3-api-plugin
+Implementation-Build: 77818819c2e144e1d8d04f0eaa1c8e00baddd3cf
+
