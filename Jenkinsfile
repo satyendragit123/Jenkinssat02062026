@@ -11,12 +11,14 @@ pipeline {
                 sh 'pip3 install -r requirements.txt --break-system-packages'
             }
         }
-        stage('Run Application') {
+                stage('Run Application') {
             steps {
                 echo 'Dependencies installed successfully!'
-                // If you want to run your Python app, uncomment the line below:
-                // sh 'python3 app.py' 
+                echo 'Deploying application files to /opt/app...'
+                // This copies all your repository files into the target directory
+                sh 'cp -r . /opt/app/' 
             }
         }
+
     }
 }
